@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+
+  busybox:
+    image: busybox:latest
+    command: /bin/bash -c 'while true; do echo testing; sleep 2; done;' 
